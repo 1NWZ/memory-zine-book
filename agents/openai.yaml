@@ -1,0 +1,4 @@
+interface:
+  display_name: "电子回忆书 · 明亮 Zine"
+  short_description: "把1–9张照片串联为实体感封面与彩色跨页，结合AI理解和代码精准排版"
+  default_prompt: "请使用 $memory-zine-book，将我上传的照片制作成电子回忆书，第一张作为封面，按规定数量输出。"
