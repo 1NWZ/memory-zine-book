@@ -1,0 +1,789 @@
+{
+  "coordinate_system": "单页或书面0–1，box=[x,y,w,h]；展示框相对整张成图",
+  "covers": {
+    "R01": {
+      "book": [
+        0.172,
+        0.156,
+        0.656,
+        0.689
+      ],
+      "window": [
+        0.599,
+        0.064,
+        0.311,
+        0.294
+      ],
+      "color": "#F3F0D8",
+      "background": "fiber"
+    },
+    "R02": {
+      "book": [
+        0.216,
+        0.21,
+        0.566,
+        0.593
+      ],
+      "window": [
+        0.343,
+        0.213,
+        0.309,
+        0.294
+      ],
+      "color": "#F1F3BE",
+      "background": "paper"
+    },
+    "R03": {
+      "book": [
+        0.268,
+        0.254,
+        0.464,
+        0.491
+      ],
+      "window": [
+        0.6,
+        0.065,
+        0.31,
+        0.29
+      ],
+      "color": "#DDFF6B",
+      "background": "dots"
+    },
+    "R04": {
+      "book": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "window": [
+        0.345,
+        0.212,
+        0.31,
+        0.291
+      ],
+      "color": "#FFF12A",
+      "background": "paper"
+    },
+    "R05": {
+      "book": [
+        0.268,
+        0.254,
+        0.464,
+        0.492
+      ],
+      "window": [
+        0.345,
+        0.212,
+        0.31,
+        0.291
+      ],
+      "color": "#F7F4EB",
+      "background": "dark"
+    }
+  },
+  "spreads": {
+    "full_oval": {
+      "references": [
+        "R14"
+      ],
+      "colors": [
+        "paper",
+        "green"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "shape": "rect",
+          "style": "none"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.13,
+            0.14,
+            0.75,
+            0.69
+          ],
+          "shape": "ellipse",
+          "style": "accent"
+        }
+      ],
+      "decor": [
+        "squares:0",
+        "orbit:1"
+      ]
+    },
+    "oval_full": {
+      "references": [
+        "R09"
+      ],
+      "colors": [
+        "yellow",
+        "paper"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0.13,
+            0.14,
+            0.75,
+            0.69
+          ],
+          "shape": "ellipse",
+          "style": "accent"
+        },
+        {
+          "page": 1,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "shape": "rect",
+          "style": "none"
+        }
+      ],
+      "decor": [
+        "orbit:0"
+      ]
+    },
+    "full_double_oval": {
+      "references": [
+        "R08"
+      ],
+      "colors": [
+        "paper",
+        "paper"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "shape": "rect",
+          "style": "none"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.17,
+            0.1,
+            0.66,
+            0.32
+          ],
+          "shape": "ellipse",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.17,
+            0.6,
+            0.66,
+            0.32
+          ],
+          "shape": "ellipse",
+          "style": "line"
+        }
+      ],
+      "decor": [
+        "squares:0",
+        "ab:1"
+      ]
+    },
+    "offset_full": {
+      "references": [
+        "R07"
+      ],
+      "colors": [
+        "yellow",
+        "paper"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0.28,
+            0.42,
+            0.67,
+            0.22
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 0,
+          "box": [
+            0.42,
+            0.68,
+            0.53,
+            0.18
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "shape": "rect",
+          "style": "none"
+        }
+      ],
+      "decor": []
+    },
+    "full_split": {
+      "references": [
+        "R06"
+      ],
+      "colors": [
+        "paper",
+        "plum"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "shape": "rect",
+          "style": "none"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.11,
+            0.28,
+            0.78,
+            0.3
+          ],
+          "shape": "rect",
+          "style": "split"
+        }
+      ],
+      "decor": []
+    },
+    "diagonal": {
+      "references": [
+        "R06",
+        "R12"
+      ],
+      "colors": [
+        "yellow",
+        "lavender"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0.03,
+            0.03,
+            0.94,
+            0.45
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.03,
+            0.58,
+            0.94,
+            0.42
+          ],
+          "shape": "rect",
+          "style": "line"
+        }
+      ],
+      "decor": []
+    },
+    "hero_scatter": {
+      "references": [
+        "R07"
+      ],
+      "colors": [
+        "lavender",
+        "sage"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0.03,
+            0.02,
+            0.94,
+            0.78
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.06,
+            0.045,
+            0.52,
+            0.39
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.68,
+            0.23,
+            0.27,
+            0.21
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.31,
+            0.5,
+            0.27,
+            0.22
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.68,
+            0.74,
+            0.27,
+            0.22
+          ],
+          "shape": "rect",
+          "style": "line"
+        }
+      ],
+      "decor": []
+    },
+    "offset_polaroid": {
+      "references": [
+        "R11"
+      ],
+      "colors": [
+        "yellow",
+        "green"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0.28,
+            0.42,
+            0.67,
+            0.22
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 0,
+          "box": [
+            0.42,
+            0.68,
+            0.53,
+            0.18
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.28,
+            0.17,
+            0.2,
+            0.17
+          ],
+          "shape": "rect",
+          "style": "polaroid"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.54,
+            0.25,
+            0.27,
+            0.23
+          ],
+          "shape": "rect",
+          "style": "polaroid"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.19,
+            0.43,
+            0.27,
+            0.24
+          ],
+          "shape": "rect",
+          "style": "polaroid"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.51,
+            0.56,
+            0.32,
+            0.3
+          ],
+          "shape": "rect",
+          "style": "polaroid"
+        }
+      ],
+      "decor": []
+    },
+    "double_oval_scene": {
+      "references": [
+        "R11"
+      ],
+      "colors": [
+        "plum",
+        "yellow"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0.17,
+            0.1,
+            0.66,
+            0.32
+          ],
+          "shape": "ellipse",
+          "style": "line"
+        },
+        {
+          "page": 0,
+          "box": [
+            0.17,
+            0.6,
+            0.66,
+            0.32
+          ],
+          "shape": "ellipse",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0,
+            0,
+            1,
+            0.63
+          ],
+          "shape": "rect",
+          "style": "none"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.54,
+            0.69,
+            0.37,
+            0.27
+          ],
+          "shape": "rect",
+          "style": "line"
+        }
+      ],
+      "decor": [
+        "ab:0"
+      ]
+    },
+    "full_frame": {
+      "references": [
+        "R09"
+      ],
+      "colors": [
+        "paper",
+        "paper"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "shape": "rect",
+          "style": "none"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.085,
+            0.285,
+            0.83,
+            0.39
+          ],
+          "shape": "rect",
+          "style": "accent"
+        }
+      ],
+      "decor": [
+        "squares:0",
+        "dots:1",
+        "stars:1"
+      ]
+    },
+    "full_index": {
+      "references": [
+        "R12"
+      ],
+      "colors": [
+        "paper",
+        "blue"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "shape": "rect",
+          "style": "none"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.045,
+            0.05,
+            0.47,
+            0.42
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.55,
+            0.05,
+            0.18,
+            0.13
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.77,
+            0.05,
+            0.18,
+            0.13
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.68,
+            0.47,
+            0.26,
+            0.19
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.05,
+            0.76,
+            0.26,
+            0.19
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.35,
+            0.76,
+            0.26,
+            0.19
+          ],
+          "shape": "rect",
+          "style": "line"
+        }
+      ],
+      "decor": []
+    },
+    "scatter_oval": {
+      "references": [
+        "R10"
+      ],
+      "colors": [
+        "teal",
+        "yellow"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0.06,
+            0.045,
+            0.52,
+            0.39
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 0,
+          "box": [
+            0.68,
+            0.23,
+            0.27,
+            0.21
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 0,
+          "box": [
+            0.31,
+            0.5,
+            0.27,
+            0.22
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 0,
+          "box": [
+            0.68,
+            0.74,
+            0.27,
+            0.22
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0.13,
+            0.14,
+            0.75,
+            0.69
+          ],
+          "shape": "ellipse",
+          "style": "accent"
+        }
+      ],
+      "decor": [
+        "orbit:1"
+      ]
+    },
+    "scatter_full": {
+      "references": [
+        "R15",
+        "R07"
+      ],
+      "colors": [
+        "paper",
+        "paper"
+      ],
+      "slots": [
+        {
+          "page": 0,
+          "box": [
+            0.06,
+            0.045,
+            0.52,
+            0.39
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 0,
+          "box": [
+            0.68,
+            0.23,
+            0.27,
+            0.21
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 0,
+          "box": [
+            0.31,
+            0.5,
+            0.27,
+            0.22
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 0,
+          "box": [
+            0.68,
+            0.74,
+            0.27,
+            0.22
+          ],
+          "shape": "rect",
+          "style": "line"
+        },
+        {
+          "page": 1,
+          "box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "shape": "rect",
+          "style": "none"
+        }
+      ],
+      "decor": []
+    }
+  }
+}
