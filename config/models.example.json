@@ -1,0 +1,11 @@
+{
+  "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+  "analysis": {
+    "endpoint": "ep-YOUR-ANALYSIS-ENDPOINT",
+    "api_key_env": "ARK_TEXT_API_KEY"
+  },
+  "image_generation": {
+    "endpoint": "ep-YOUR-IMAGE-ENDPOINT",
+    "api_key_env": "ARK_IMAGE_API_KEY"
+  }
+}
