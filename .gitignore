@@ -1,0 +1,15 @@
+config/models.local.json
+.env
+.env.*
+!.env.example
+.credentials/
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+work/
+outputs/
+references/source-images/*
+!references/source-images/README.md
